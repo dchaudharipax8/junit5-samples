@@ -12,8 +12,14 @@ package com.example.project
 
 class Calculator {
 
+	Integer third = 0
+
 	int add(int a, int b) {
 		return a + b;
+	}
+
+	int addWithThird(int a, int b) {
+		return a + b + third
 	}
 
 }
